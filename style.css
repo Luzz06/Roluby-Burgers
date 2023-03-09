@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: #e2935a;
+  color: black;
+  padding: 20px;
+	font-size: 50px;
+}
+
+body{
+	font-family: 'Lilita One', cursive;
+  background-color: #F5EBDC;
+}
+
+nav ul {
+  background-color: black;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+
+ nav li{
+   display: inline-flex;
+ }
+
+nav a{
+	font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width: 150px;
+	font-size: 18px;
+}
+
+
+.footer {
+  padding: 20px 0;
+  background-color: #b8a8a8;
+}
+
+.footer .social{
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4d;
+}
+
+.footer .social a{
+  font-size: 24px;
+  color: inherit;
+  width: 30px;
+  height: 30px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  opacity: 0.75;
+	padding: 10px;
+}
+
+.footer .social a:hover{
+  opacity: 0.9;
+}
+
+.footer ul{
+  margin-top: 0;
+  padding: 10px;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1,6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul a{
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul li{
+  display: inline-block;
+}
+
+.footer ul li a:hover{
+  opacity: 1;
+}
+
+.footer .copyright{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13;
+  color: #6d6969;
+}
+
+fieldset{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: black;
+  padding: 20px;
+	font-size: 20px;
+}
+
+legend{
+  font-size: 30px;
+}
